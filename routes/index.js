@@ -12,4 +12,8 @@ router.get('/contacts', (req, res)=> {
   res.render('contacts');
 })
 
+router.get('/credits', (req, res)=> {
+  res.render('credits');
+})
+
 module.exports = router;
